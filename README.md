@@ -1,4 +1,4 @@
-# End to End Scenario to Analyse Picture via cognitive service and leverage CosmosDB and Azure Functions.
+# End to End Scenario to analyse pictures via Azure computer vision and azure cognitive search, and leverage CosmosDB and Azure Functions to enable event-driven use cases.
 This is a hands on lab guide for Azure. In this lab you will deploy a serverless application which uses Azure Cognitive Services to analyze photos gathered from twitter. An Azure Logic App drives the process and carries out most of the tasks. 
 
 The Logic App flow is:
