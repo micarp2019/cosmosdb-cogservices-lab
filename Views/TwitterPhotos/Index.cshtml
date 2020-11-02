@@ -1,0 +1,32 @@
+﻿@model IEnumerable<TwitterPhotos.Models.Photo>
+
+@{
+    ViewData["Title"] = "Photo List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Twitter Photo Description</h2>
+<style>
+    .searchResults__result h4 {
+        margin-top: 0px;
+        text-transform: uppercase;
+    }
+
+    .searchResults__result .resultDescription {
+        margin: 0.5em 0 0 0;
+    }
+</style>
+
+<table cellspacing="0">
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <!-- @Html.DisplayFor(modelItem => item.Url) -->
+            <td class="center" width="65%"><img src="@Url.Content(@item.Url)" width="100%"></td>
+            <td>
+                <h3>@Html.DisplayFor(modelItem => item.caption)</h3>
+        </tr>
+    }
+
+</table>
