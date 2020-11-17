@@ -16,7 +16,7 @@ This is a hands on lab guide for Azure. In this lab you will deploy a serverless
 - Stores the result in Azure Cosmos DB
 This is a hands on lab guide for Azure. In this lab you will deploy a serverless application which uses Azure Cognitive Services to analyze photos gathered from twitter. An Azure Logic App drives the process and carries out most of the tasks.
 
-# The data from Cosmos is then consumed by three consumers, in push and poll mode. Specifically:
+The data from Cosmos is then consumed by three consumers, in push and poll mode. Specifically:
 
 PUSH: Azure Search is a cognitive service to index documents. It works in push and pull mode. In this lab we will show both
 PUSH: Notification Hub is an Azure Service that captures notifications to send to mobile apps
