@@ -18,9 +18,9 @@ This is a hands on lab guide for Azure. In this lab you will deploy a serverless
 
 # The data from Cosmos is then consumed by three consumers, in push and poll mode. Specifically:
 
-# PUSH: Azure Search is a cognitive service to index documents. It works in push and pull mode. In this lab we will show both
-# PUSH: Notification Hub is an Azure Service that captures notifications to send to mobile apps
-# PULL: A simple web app, written in Node.js. This web app is hosted in Azure as an Web App Service, it connects to Cosmos DB and displays the photo analysis results as a simple web page.
+PUSH: Azure Search is a cognitive service to index documents. It works in push and pull mode. In this lab we will show both
+PUSH: Notification Hub is an Azure Service that captures notifications to send to mobile apps
+PULL: A simple web app, written in Node.js. This web app is hosted in Azure as an Web App Service, it connects to Cosmos DB and displays the photo analysis results as a simple web page.
 
 The guide steps through deploying and configuring the complete end to end solution in Azure.
 # Solution Architecture
